@@ -1,0 +1,161 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+nav{
+    width:100%;
+    height:50px;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+
+}
+
+.nav{
+    margin:auto;
+    /* background-color: white; */
+    width:70%;
+    height: 50px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+
+.nav_links{
+    display: flex;
+    width:600px;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.nav_links li{
+    list-style-type: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.nav_links a{
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #222222;
+}
+.nav_links li:hover{
+    color: red;
+
+}
+
+.nav_icons{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.icon{
+    width:20px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap:10px
+}
+
+/* .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+.btn2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    color:black;
+    border: 2px solid orangered;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.btn2:hover{
+    background-color:rgba(255, 68, 0, 0.574);
+    color:black;
+    border: 2px solid rgba(255, 68, 0, 0.229);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.item {
+    display: flex;
+    gap: 10px;
+}
+.item input{
+    width:100%;
+    padding: 5px;
+    background-color:white;
+    color:black;
+    border: 2px solid orangered;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.item input:hover{
+    /* background-color:rgba(255, 68, 0, 0.574); */
+    color:black;
+    border: 2px solid rgba(255, 68, 0, 0.229);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.item button{
+    background-color:white;
+    color:black;
+    border: 2px solid orangered;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+#message{
+font-size: 29px;
+font-weight: 500;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: #000;
+    color:white;
+    padding:10px 10px;
+}
+
+.footer{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-grid-items span{
+    font-size: .7rem;
+}
+
+.left{
+    border-right: 5px solid #DDD;
+}
+
+.copy{
+    text-align:center;
+    font-size: .5rem;
+    border-top: .5px dotted #DDD;
+    margin-top: 10px;
+}
